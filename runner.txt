@@ -1,0 +1,11 @@
+score this
+
+A gravitational weapon capable of condensing matter into miniature black holes. Any target caught in its pull is crushed into nothingness.
+
+transfer eth here
+
+0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+
+pnpm start --character="characters/dark_santa.character.json"
+
+play with me, i chose paper. my address is 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 on hardhat

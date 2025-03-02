@@ -1,0 +1,178 @@
+my-hardhat-project/node_modules
+
+
+my-hardhat-project/node_modules/
+
+#  all from ai-arena-challenge
+
+# Logs
+ai-arena-challenge/logs
+ai-arena-challenge/*.log
+ai-arena-challenge/npm-debug.log*
+ai-arena-challenge/yarn-debug.log*
+ai-arena-challenge/yarn-error.log*
+ai-arena-challenge/pnpm-debug.log*
+ai-arena-challenge/lerna-debug.log*
+
+# Node modules and build output
+ai-arena-challenge/node_modules/
+ai-arena-challenge/dist/
+ai-arena-challenge/dist-ssr/
+ai-arena-challenge/*.local
+
+# Environment files
+ai-arena-challenge/.env
+ai-arena-challenge/.env.local
+ai-arena-challenge/.env.development
+ai-arena-challenge/.env.production
+ai-arena-challenge/.env.test
+
+# Editor directories and files
+ai-arena-challenge/.vscode/*
+!ai-arena-challenge/.vscode/extensions.json
+ai-arena-challenge/.idea/
+ai-arena-challenge/.DS_Store
+ai-arena-challenge/*.suo
+ai-arena-challenge/*.ntvs*
+ai-arena-challenge/*.njsproj
+ai-arena-challenge/*.sln
+ai-arena-challenge/*.sw?
+
+# Temporary files and directories
+ai-arena-challenge/*.bak
+ai-arena-challenge/*.tmp
+ai-arena-challenge/*.swp
+
+# Mac system files
+ai-arena-challenge/*.AppleDouble
+ai-arena-challenge/*.LSOverride
+
+# Windows Installer files
+ai-arena-challenge/Thumbs.db
+ai-arena-challenge/ehthumbs.db
+
+# Linux-specific files
+ai-arena-challenge/*.directory
+
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
+ai-arena-challenge/*.iml
+
+# SvelteKit / Vite adapter-specific files (if you're using them)
+ai-arena-challenge/.svelte-kit/
+
+
+
+#  add eliza gitignores
+
+eliza/.devcontainer/
+eliza.github
+eliza/.vscode/
+eliza/.turbo
+
+
+eliza/node_modules
+eliza/out
+
+eliza/.github
+
+eliza/.devcontainer
+
+eliza/.turbo
+
+eliza/.env
+eliza/.env.production
+eliza/.env.local
+eliza/.env_main
+eliza/concatenated-output.ts
+eliza/embedding-cache.json
+eliza/packages/plugin-buttplug/intiface-engine
+
+eliza/node-compile-cache
+
+eliza/.idea
+eliza/.vscode
+eliza/.zed
+eliza/.DS_Store
+
+eliza/dist/
+# Allow models directory but ignore model files
+eliza/models/*.gguf
+eliza/pgLite/
+
+eliza/cookies.json
+
+eliza/db.sqlite
+eliza/searches/
+eliza/tweets/
+
+eliza/*.gguf
+eliza/*.onnx
+eliza/*.wav
+eliza/*.mp3
+
+eliza/logs/
+
+eliza/test-report.json
+eliza/content_cache/
+eliza/test_data/
+eliza/tokencache/
+eliza/tweetcache/
+eliza/twitter_cookies.json
+eliza/timeline_cache.json
+
+eliza/*.sqlite
+
+# Character configurations
+eliza/characters/**/secrets.json
+eliza/characters/**/*.env
+eliza/characters/**/*.key
+eliza/characters/**/private/
+
+eliza/packages/core/src/providers/cache
+eliza/packages/core/src/providers/cache/*
+eliza/cache/*
+eliza/packages/plugin-coinbase/src/plugins/transactions.csv
+
+eliza/tsup.config.bundled_*.mjs
+
+eliza/.turbo
+eliza/.cursorrules
+eliza/.pnpm-store
+eliza/instructions.md
+eliza/wallet_data.txt
+
+eliza/coverage
+eliza/.eslintcache
+
+eliza/agent/content
+
+eliza/eliza.manifest
+eliza/eliza.manifest.sgx
+eliza/eliza.sig
+
+eliza/packages/plugin-nvidia-nim/extra
+eliza/packages/plugin-nvidia-nim/old_code
+eliza/packages/plugin-nvidia-nim/docs
+
+# Edriziai specific ignores
+eliza/characters/edriziai-info/secrets.json
+
+# Bug Hunter logs and checkpoints
+eliza/scripts/bug_hunt/logs/
+eliza/scripts/bug_hunt/logs/*.log
+eliza/scripts/bug_hunt/checkpoints/
+eliza/scripts/bug_hunt/checkpoints/*.json
+eliza/scripts/bug_hunt/reports/
+eliza/scripts/bug_hunt/reports/*.md
+
+eliza/lit-config.json
+
+# Configuration to exclude the extra and local_docs directories
+eliza/extra
+eliza/**/dist/**
+
+eliza/ton_nft_metadata/
+eliza/ton_nft_metadata/*
+
+eliza/ton_nft_images/
+eliza/ton_nft_images/*
