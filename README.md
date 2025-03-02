@@ -62,6 +62,14 @@ Follow these steps to set up and run the project:
    ```sh
    pnpm build
    ```
+4. Set up env
+# EVM
+EVM_PRIVATE_KEY=""
+EVM_PROVIDER_URL="http://127.0.0.1:8545" hardhat local server
+
+GROQ_API_KEY= ""  // our example models are set up with groq, but you can use any provider you want.
+
+
 
 ### Step 4: Start the Application
 Run the following command to start the application with selected characters:
