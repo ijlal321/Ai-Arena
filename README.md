@@ -1,0 +1,71 @@
+# AI Arena - Startup Guide
+
+## Prerequisites
+Ensure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) and npm
+- [pnpm](https://pnpm.io/installation)
+- [Hardhat](https://hardhat.org/)
+
+## Getting Started
+Follow these steps to set up and run the project:
+
+### Step 1: Setup Hardhat Environment
+1. Open a terminal and navigate to the Hardhat project directory:
+   ```sh
+   cd my-hardhat-project
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Install Hardhat (if not already installed):
+   ```sh
+   npm install --save-dev hardhat
+   ```
+4. Start the Hardhat node:
+   ```sh
+   npx hardhat node
+   ```
+
+### Step 2: Setup AI Arena Challenge
+1. Open a **new terminal** and navigate to the AI Arena Challenge directory:
+   ```sh
+   cd ai-arena-challenge
+   ```
+2. Install dependencies:
+   ```sh
+   pnpm install
+   ```
+3. Start the development server:
+   ```sh
+   pnpm run dev
+   ```
+
+### Step 3: Setup Eliza
+1. Open another **new terminal** and navigate to the Eliza directory:
+   ```sh
+   cd eliza
+   ```
+2. Install dependencies:
+   ```sh
+   pnpm install
+   ```
+3. Build the project:
+   ```sh
+   pnpm build
+   ```
+
+### Step 4: Start the Application
+Run the following command to start the application with selected characters:
+```sh
+pnpm start --characters="characters/dark_santa.character.json,characters/quadra_blaze.character.json"
+```
+
+### Step 5: Open in Browser
+Once everything is running, open your browser and go to:
+```
+http://localhost:8080
+```
+
+Your AI Arena Challenge environment should now be up and running!
+
