@@ -1,5 +1,13 @@
 # AI Arena - Startup Guide
 
+
+## Watch Demo
+[Watch the demo here](https://youtu.be/SnLImAM_5Ho)
+
+## Full Pitch
+[View the full pitch here](https://drive.google.com/file/d/1SuyG8EaARDe1j8zZL1A7Lq5PYFVQgUpp/view?usp=sharing)
+
+
 ## Prerequisites
 Ensure you have the following installed on your system:
 - [Node.js](https://nodejs.org/) and npm
@@ -27,8 +35,8 @@ Follow these steps to set up and run the project:
    npx hardhat node
    ```
 
-### Step 2: Setup AI Arena Challenge
-1. Open a **new terminal** and navigate to the AI Arena Challenge directory:
+### Step 2: Setup AI Arena
+1. Open a **new terminal** and navigate to the AI Arena directory:
    ```sh
    cd ai-arena-challenge
    ```
@@ -67,5 +75,5 @@ Once everything is running, open your browser and go to:
 http://localhost:8080
 ```
 
-Your AI Arena Challenge environment should now be up and running!
+Your AI Arena environment should now be up and running!
 
