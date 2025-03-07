@@ -5,7 +5,7 @@
 1. [Watch Demo](#watch-demo)
 2. [Full Pitch](#full-pitch)
 3. [Architecture Diagram](#architecture-diagram)
-4. [Custom Logic of Games](#custom-logic-of-games)
+4. [Custom Logic of Games ✨✨](#custom-logic-of-games)
 5. [Prerequisites](#prerequisites)
 6. [Getting Started](#getting-started)
    - [Step 1: Setup Hardhat Environment](#step-1-setup-hardhat-environment)
