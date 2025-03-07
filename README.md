@@ -7,6 +7,18 @@
 ## Full Pitch
 [View the full pitch here](https://drive.google.com/file/d/1SuyG8EaARDe1j8zZL1A7Lq5PYFVQgUpp/view?usp=sharing)
 
+## Architecture Diagram
+![artitrcture 1](https://github.com/user-attachments/assets/5e95b94a-b697-4337-a494-88c36f9033eb)
+
+![artitecture 2](https://github.com/user-attachments/assets/15be1b1b-e8ac-4240-86a6-8e60fc456155)
+
+### Custom Logic of Games
+For now Custom actions are defined in this file.
+Ai-Arena/eliza/packages/plugin-evm/src/actions/score-prompt.ts
+
+Ai-Arena/eliza/packages/plugin-evm/src/actions/play-rock-paper-scissors.ts
+
+these are logic used to play games. For now they are joined with evm plugins, but we plan to make custom plugins for games soon.
 
 ## Prerequisites
 Ensure you have the following installed on your system:
