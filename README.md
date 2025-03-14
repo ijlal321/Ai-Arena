@@ -86,6 +86,11 @@ Follow these steps to set up and run the project:
    ```sh
    pnpm run dev
    ```
+4. Enter API's
+```sh
+VITE_CHATBOT_SERVER_URL=http://localhost:3000  // backend chatbot server
+VITE_BOT_ADDRESS=0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266  // this is public address of your chatbot. 
+```
 
 ### Step 3: Setup Eliza
 
